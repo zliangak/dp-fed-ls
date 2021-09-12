@@ -16,8 +16,8 @@ the result into a [json file](https://hkustconnect-my.sharepoint.com/:f:/g/perso
 It is a python dict object with keys `['users', 'user_data', 'num_samples']`, which represent roles' names, their corresponding samples (lines) and sample numbers.
 
 
-## Momentum Accountants
-Momentum Accountant for uniform subsampling in `dp/autodp` is borrowed from [this repo](https://github.com/yuxiangw/autodp). And the one for
+## Moment Accountants
+Moment Accountant for uniform subsampling in `dp/autodp` is borrowed from [this repo](https://github.com/yuxiangw/autodp). And the one for
 poisson subsampling in `dp/google_accountant` is borrowed from [this repo](https://github.com/tensorflow/privacy/tree/master/tensorflow_privacy/privacy).
 
 
