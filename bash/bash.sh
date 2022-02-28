@@ -16,11 +16,11 @@ python main.py --model_name logistic --data_root $HOME/data/ --frac 0.05 --local
 
 #### For CNN over SVHN
 # uniform subsampling
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'uniform' --G 0.7 --z 1.5 --epochs 200 --sigma_ls 0.0
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'uniform' --G 0.7 --z 1.5 --epochs 200 --sigma_ls 0.5
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'uniform' --G 0.3 --z 1.5 --epochs 200 --sigma_ls 0.0
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'uniform' --G 0.3 --z 1.5 --epochs 200 --sigma_ls 0.5
 # poisson subsampling
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'poisson' --G 0.7 --z 1.5 --epochs 200 --sigma_ls 0.0
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'poisson' --G 0.7 --z 1.5 --epochs 200 --sigma_ls 0.5
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'poisson' --G 0.3 --z 1.5 --epochs 200 --sigma_ls 0.0
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type 'poisson' --G 0.3 --z 1.5 --epochs 200 --sigma_ls 0.5
 
 
 
@@ -37,8 +37,8 @@ python main.py --model_name lstm --data_root $HOME/data/Shakespeare --frac 0.2 -
 
 
 #### Extreme noise for CNN over SVHN
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.125 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --dp --iid --sampling_type 'poisson' --G 0.7 --z 3.0 --epochs 200 --sigma_ls 0.0 --comments extreme
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.125 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --dp --iid --sampling_type 'poisson' --G 0.7 --z 3.0 --epochs 200 --sigma_ls 1.0 --comments extreme
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.125 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --dp --iid --sampling_type 'poisson' --G 0.3 --z 3.0 --epochs 200 --sigma_ls 0.0 --comments extreme
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.125 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --dp --iid --sampling_type 'poisson' --G 0.3 --z 3.0 --epochs 200 --sigma_ls 1.0 --comments extreme
 
 
 
@@ -46,12 +46,12 @@ python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.05 --l
 ##### AUC evolution curve for CNN over SVHN
 # for uniform subsampling
 python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --iid --sampling_type 'uniform' --epochs 200 --mi --comments mi_auc --train_size 64000
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'uniform' --G 0.7 --z 1.0 --epochs 200 --sigma_ls 0.0 --mi --comments mi_auc --train_size 64000
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'uniform' --G 0.7 --z 1.0 --epochs 200 --sigma_ls 1.0 --mi --comments mi_auc --train_size 64000
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'uniform' --G 0.3 --z 1.0 --epochs 200 --sigma_ls 0.0 --mi --comments mi_auc --train_size 64000
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'uniform' --G 0.3 --z 1.0 --epochs 200 --sigma_ls 1.0 --mi --comments mi_auc --train_size 64000
 # for poisson subsampling
 python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --iid --sampling_type 'poisson' --epochs 200 --mi --comments mi_auc --train_size 64000
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'poisson' --G 0.7 --z 1.0 --epochs 200 --sigma_ls 0.0 --mi --comments mi_auc --train_size 64000
-python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'poisson' --G 0.7 --z 1.0 --epochs 200 --sigma_ls 1.0 --mi --comments mi_auc --train_size 64000
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'poisson' --G 0.3 --z 1.0 --epochs 200 --sigma_ls 0.0 --mi --comments mi_auc --train_size 64000
+python main.py --model_name cnn_svhn --data_root $HOME/data/SVHN --frac 0.2 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 500 --pretrain --dp --iid --sampling_type 'poisson' --G 0.3 --z 1.0 --epochs 200 --sigma_ls 1.0 --mi --comments mi_auc --train_size 64000
 
 
 

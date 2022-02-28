@@ -34,7 +34,7 @@ def main(args):
                     'v': args.v,
                     'comment': args.comments,
                     'order': args.order,
-                    'freq': args.greq,
+                    'freq': args.freq,
                     'sampling_freq': args.sampling_freq
                     }
                 }
