@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="yuany2.math.ust.hk">
+    <serverData>
+      <paths name="xgpu.ust.hk">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/DP-FED-LS-CODE/dp-fed-ls" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yuany2.math.ust.hk">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/zliangak/gpu3/DP-FED-LS-CODE/dp-fed-ls" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

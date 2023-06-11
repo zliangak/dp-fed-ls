@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6fb0ee27-d812-4941-9158-54c350d023f7" name="yuany2.math.ust.hk">
+        <fileTransfer accessType="SFTP" host="yuany2.math.ust.hk" port="22" sshConfigId="82759619-4104-43ba-84f3-4fcbf7dd6283" sshConfig="zliangak@yuany2.math.ust.hk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3571a55d-430f-47e8-bc29-969537814b3d" name="xgpu.ust.hk">
+        <fileTransfer rootFolder="/home/zliangak" accessType="SFTP" host="xgpu.ust.hk" port="22" sshConfigId="dc97294b-5103-4770-b345-6a63353eeae5" sshConfig="zliangak@xgpu.ust.hk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

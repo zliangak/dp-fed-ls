@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24b59495-3584-4505-8542-f2bc3842b42a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dp-fed-ls.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bash/bash.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bash/bash_xgpu.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bash/bash_xgpu_v2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/dp_acct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/dp_bank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/privacy_calibrator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/rdp_acct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/rdp_bank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/autodp/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/google_accountant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/google_accountant/google_accountant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/js.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/ls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estimator/th.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pretrain/mnist_pretrain_weight.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/sampling.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sOBWXE35ZLdqk7TR180rALAKWZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="comparison" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dp-fed-ls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comparison.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dp-fed-ls" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--debug --model_name cnn_svhn --data_root /home/zliangak/gpu3/data/SVHN --frac 0.001 --local_ep 10 --local_bs 64 --lr_outer 1 --lr_inner 0.1 --gamma 0.99 --wd 4e-5 --optim sgd --num_users 2000 --pretrain --dp --iid --sampling_type uniform --G 0.7 --z 1 --epochs 200 --sigma_ls 0 --hist --comments testing_hist" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.comparison" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.comparison" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24b59495-3584-4505-8542-f2bc3842b42a" name="Default Changelist" comment="" />
+      <created>1620733787212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620733787212</updated>
+      <workItem from="1620733789471" duration="4257000" />
+      <workItem from="1620783975118" duration="12179000" />
+      <workItem from="1620816353710" duration="5726000" />
+      <workItem from="1620891397665" duration="1014000" />
+      <workItem from="1621219312906" duration="2229000" />
+      <workItem from="1621305755090" duration="1437000" />
+      <workItem from="1621326079396" duration="828000" />
+      <workItem from="1621342810520" duration="419000" />
+      <workItem from="1621392911720" duration="966000" />
+      <workItem from="1621477192748" duration="4067000" />
+      <workItem from="1621483914284" duration="7000" />
+      <workItem from="1621497598663" duration="2060000" />
+      <workItem from="1621565273886" duration="328000" />
+      <workItem from="1621568184754" duration="908000" />
+      <workItem from="1621668847426" duration="665000" />
+      <workItem from="1621672401640" duration="1319000" />
+      <workItem from="1621674373486" duration="1042000" />
+      <workItem from="1621684458956" duration="342000" />
+      <workItem from="1621839075967" duration="3689000" />
+      <workItem from="1621998372293" duration="1354000" />
+      <workItem from="1622001358470" duration="2570000" />
+      <workItem from="1622011498800" duration="1129000" />
+      <workItem from="1622095285957" duration="1072000" />
+      <workItem from="1622260889792" duration="626000" />
+      <workItem from="1622446300005" duration="281000" />
+      <workItem from="1622520265034" duration="13000" />
+      <workItem from="1622520282553" duration="24000" />
+      <workItem from="1622529815098" duration="8000" />
+      <workItem from="1623061955353" duration="4903000" />
+      <workItem from="1623243427098" duration="347000" />
+      <workItem from="1623294691694" duration="5000" />
+      <workItem from="1629183067865" duration="217000" />
+      <workItem from="1629268434449" duration="943000" />
+      <workItem from="1630462581833" duration="420000" />
+      <workItem from="1631426301518" duration="20000" />
+      <workItem from="1641286721179" duration="19000" />
+      <workItem from="1642580845980" duration="5000" />
+      <workItem from="1642581639203" duration="2722000" />
+      <workItem from="1642667651166" duration="982000" />
+      <workItem from="1642688635944" duration="1172000" />
+      <workItem from="1642750132502" duration="1249000" />
+      <workItem from="1642900842460" duration="487000" />
+      <workItem from="1643016253952" duration="1347000" />
+      <workItem from="1643105800215" duration="1198000" />
+      <workItem from="1643107227867" duration="385000" />
+      <workItem from="1643205945927" duration="322000" />
+      <workItem from="1643237313590" duration="1029000" />
+      <workItem from="1643369664364" duration="965000" />
+      <workItem from="1643554170767" duration="1022000" />
+      <workItem from="1643592297981" duration="686000" />
+      <workItem from="1643719331109" duration="1126000" />
+      <workItem from="1643722612540" duration="372000" />
+      <workItem from="1643811132229" duration="558000" />
+      <workItem from="1643878838404" duration="301000" />
+      <workItem from="1644078054971" duration="503000" />
+      <workItem from="1644247247506" duration="1455000" />
+      <workItem from="1644289378669" duration="1325000" />
+      <workItem from="1644397130427" duration="362000" />
+      <workItem from="1644418148249" duration="460000" />
+      <workItem from="1644546679681" duration="7000" />
+      <workItem from="1644547006307" duration="74000" />
+      <workItem from="1644547379329" duration="680000" />
+      <workItem from="1644574979748" duration="1117000" />
+      <workItem from="1644590304229" duration="1097000" />
+      <workItem from="1645610202071" duration="10000" />
+      <workItem from="1646049890267" duration="2000" />
+      <workItem from="1646049947333" duration="944000" />
+      <workItem from="1686468206386" duration="2310000" />
+      <workItem from="1686477010294" duration="1447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="62" key="#Deployment" timestamp="1686478297473">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="62" key="#Deployment/0.0.1280.800@0.0.1280.800" timestamp="1686478297473" />
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1686478316069">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1686478316069" />
+    <state x="681" y="116" key="#xdebugger.evaluate" timestamp="1686478619681">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="681" y="116" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1686478619681" />
+    <state width="481" height="702" key="GridCell.Tab.0.bottom" timestamp="1686478648350">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1686478648350" />
+    <state width="481" height="702" key="GridCell.Tab.0.center" timestamp="1686478648349">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1686478648349" />
+    <state width="481" height="702" key="GridCell.Tab.0.left" timestamp="1686478648348">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1686478648348" />
+    <state width="481" height="702" key="GridCell.Tab.0.right" timestamp="1686478648349">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1686478648349" />
+    <state width="481" height="702" key="GridCell.Tab.1.bottom" timestamp="1686478648353">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1686478648353" />
+    <state width="481" height="702" key="GridCell.Tab.1.center" timestamp="1686478648352">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1686478648352" />
+    <state width="481" height="702" key="GridCell.Tab.1.left" timestamp="1686478648350">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1686478648350" />
+    <state width="481" height="702" key="GridCell.Tab.1.right" timestamp="1686478648353">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="481" height="702" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1686478648353" />
+    <state x="344" y="134" key="PyMappingSimpleResolveDialog" timestamp="1686478565928">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="344" y="134" key="PyMappingSimpleResolveDialog/0.0.1280.800@0.0.1280.800" timestamp="1686478565928" />
+    <state x="149" y="36" key="SettingsEditor" timestamp="1686478268849">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1686478268849" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/estimator/ls.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dp_fed_ls$comparison.coverage" NAME="comparison Coverage Results" MODIFIED="1621480193344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dp_fed_ls$main.coverage" NAME="main Coverage Results" MODIFIED="1686478316479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
